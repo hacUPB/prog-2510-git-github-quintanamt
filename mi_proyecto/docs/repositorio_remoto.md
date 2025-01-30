@@ -10,45 +10,33 @@ Haz clic en "New" para crear un nuevo repositorio.
 
 Asigna un nombre al repositorio y elige la visibilidad (público o privado).
 
-No inicialices el repositorio con un archivo README si ya tienes un repositorio local.
+2. **Vincular un repositorio local con uno remoto:**
+   - `git remote add origin <url_repositorio>`: Asocia el repositorio local con el remoto.
+   - `git remote -v`: Verifica la URL del repositorio remoto.
 
-Conectar el repositorio local con el remoto:
+3. **Subir cambios al repositorio remoto:**
+   - `git push origin main`: Sube los commits locales al repositorio remoto.
 
-Copia la URL del repositorio remoto (HTTPS o SSH).
+4. **Clonar un repositorio remoto:**
+   - `git clone <url_repositorio>`: Descarga un repositorio remoto en tu computadora.
 
-En tu consola, navega al directorio del repositorio local.
+5. **Sincronizar cambios:**
+   - `git pull origin main`: Descarga los cambios del repositorio remoto y los fusiona con el local.
 
-Usa el comando git remote add para vincular el repositorio local con el remoto:
+### Ejemplo de Uso
 
-bash
-Copy
-git remote add origin [URL_del_repositorio]
-Por ejemplo:
+```bash
+# Crear repositorio remoto
+gh repo create mi_proyecto --public --source=. --push --remote=upstream
 
-bash
-Copy
-git remote add origin https://github.com/usuario/repositorio.git
-Subir cambios al repositorio remoto:
+# Vincular repositorio local con remoto
+git remote add origin https://github.com/usuario/mi_proyecto.git
 
-Usa git push para enviar los commits locales al repositorio remoto:
+# Subir cambios
+git push origin main
 
-bash
-Copy
-git push -u origin main
-(Nota: main es la rama principal. Si usas master, cambia el nombre).
+# Clonar un repositorio
+git clone https://github.com/usuario/mi_proyecto.git
 
-Sincronizar cambios futuros:
-
-Para subir cambios adicionales, usa:
-
-bash
-Copy
-git add .
-git commit -m "Nuevos cambios"
-git push
-Para descargar cambios del repositorio remoto, usa:
-
-bash
-Copy
-git pull
-Con estos pasos, habrás creado y sincronizado un repositorio local con uno remoto en GitHub.
+# Sincronizar cambios
+git pull origin main

@@ -1,54 +1,44 @@
-#AI
-Crear un repositorio remoto en GitHub y sincronizarlo con el repositorio local
-Para crear un repositorio remoto en GitHub y sincronizarlo con tu repositorio local, sigue estos pasos:
 
-Crear un repositorio en GitHub:
+---
 
-Inicia sesión en GitHub.
+## `repositorio_local.md`
 
-Haz clic en "New" para crear un nuevo repositorio.
+```markdown
+# Crear un Repositorio Local con Git
 
-Asigna un nombre al repositorio y elige la visibilidad (público o privado).
+Git es una herramienta de control de versiones que permite rastrear cambios en archivos y directorios. Aquí se explica cómo crear y gestionar un repositorio local.
 
-No inicialices el repositorio con un archivo README si ya tienes un repositorio local.
+### Comandos Básicos
 
-Conectar el repositorio local con el remoto:
+1. **Inicializar un repositorio:**
+   - `git init`: Crea un nuevo repositorio Git en el directorio actual.
 
-Copia la URL del repositorio remoto (HTTPS o SSH).
+2. **Verificar el estado del repositorio:**
+   - `git status`: Muestra el estado actual del repositorio, incluyendo archivos modificados y no rastreados.
 
-En tu consola, navega al directorio del repositorio local.
+3. **Agregar archivos al área de preparación (STAGE):**
+   - `git add <nombre_archivo>`: Agrega un archivo al área de preparación.
+   - `git add .`: Agrega todos los archivos modificados y no rastreados.
 
-Usa el comando git remote add para vincular el repositorio local con el remoto:
+4. **Confirmar cambios (commit):**
+   - `git commit -m "mensaje"`: Guarda los cambios en el repositorio con un mensaje descriptivo.
 
-bash
-Copy
-git remote add origin [URL_del_repositorio]
-Por ejemplo:
+5. **Ver el historial de commits:**
+   - `git log`: Muestra el historial de commits con detalles como autor, fecha y mensaje.
+   - `git log --oneline`: Muestra una versión resumida del historial.
 
-bash
-Copy
-git remote add origin https://github.com/usuario/repositorio.git
-Subir cambios al repositorio remoto:
+6. **Deshacer cambios:**
+   - `git restore <nombre_archivo>`: Descarta los cambios en un archivo.
+   - `git restore --staged <nombre_archivo>`: Saca un archivo del área de preparación.
 
-Usa git push para enviar los commits locales al repositorio remoto:
+### Ejemplo de Uso
 
-bash
-Copy
-git push -u origin main
-(Nota: main es la rama principal. Si usas master, cambia el nombre).
-
-Sincronizar cambios futuros:
-
-Para subir cambios adicionales, usa:
-
-bash
-Copy
-git add .
-git commit -m "Nuevos cambios"
-git push
-Para descargar cambios del repositorio remoto, usa:
-
-bash
-Copy
-git pull
-Con estos pasos, habrás creado y sincronizado un repositorio local con uno remoto en GitHub.
+```bash
+mkdir mi_proyecto
+cd mi_proyecto
+git init
+touch archivo.txt
+git add archivo.txt
+git commit -m "Primer commit: archivo inicial"
+git status
+git log
