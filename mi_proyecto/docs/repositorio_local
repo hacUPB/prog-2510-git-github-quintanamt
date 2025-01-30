@@ -1,0 +1,41 @@
+rear un repositorio local con comandos de Git
+Para crear un repositorio local con Git, sigue estos pasos:
+
+Inicializar un repositorio:
+
+Navega al directorio donde deseas crear el repositorio.
+
+Ejecuta el comando:
+
+bash
+Copy
+git init
+Esto crea una carpeta oculta .git que almacena toda la información del repositorio.
+
+Agregar archivos al repositorio:
+
+Crea o modifica archivos en el directorio.
+
+Usa el comando git add para preparar los archivos para el commit:
+
+bash
+Copy
+git add [nombre_archivo]
+O para agregar todos los archivos:
+
+bash
+Copy
+git add .
+Confirmar cambios (commit):
+
+Guarda los cambios en el repositorio con un mensaje descriptivo:
+
+bash
+Copy
+git commit -m "Mensaje descriptivo del commit"
+Verificar el estado del repositorio:
+
+Usa git status para ver el estado de los archivos (modificados, agregados, etc.).
+
+Usa git log para ver el historial de commits.
+
