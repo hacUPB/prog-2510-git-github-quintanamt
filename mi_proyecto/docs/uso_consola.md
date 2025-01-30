@@ -1,37 +1,37 @@
-1. Conceptos aprendidos sobre cómo usar la consola para navegar y crear directorios y archivos
-La consola (o terminal) es una herramienta poderosa para interactuar con el sistema operativo mediante comandos. Aquí están los conceptos clave:
+# Uso de la Consola para Navegar y Crear Directorios y Archivos
 
-Navegación entre directorios:
+La consola es una herramienta poderosa para interactuar con el sistema operativo. Aquí se describen los conceptos básicos para navegar y crear directorios y archivos.
 
-cd [ruta]: Cambia el directorio actual. Por ejemplo, cd Documentos te lleva a la carpeta "Documentos".
+### Comandos Básicos
 
-cd ..: Sube un nivel en la jerarquía de directorios.
+1. **Navegar entre directorios:**
+   - `cd <directorio>`: Cambia al directorio especificado.
+   - `cd ..`: Sube un nivel en la jerarquía de directorios.
+   - `cd`: Sin argumentos, te lleva al directorio home.
 
-cd ~ o simplemente cd: Te lleva al directorio home del usuario.
+2. **Listar archivos y directorios:**
+   - `ls`: Muestra los archivos y directorios en el directorio actual.
+   - `ls -a`: Muestra todos los archivos, incluyendo los ocultos.
+   - `ls -l`: Muestra detalles como permisos, tamaño y fecha de modificación.
 
-pwd: Muestra la ruta completa del directorio actual.
+3. **Crear directorios:**
+   - `mkdir <nombre_directorio>`: Crea un nuevo directorio.
 
-Creación de directorios:
+4. **Crear archivos:**
+   - `touch <nombre_archivo>`: Crea un archivo vacío.
 
-mkdir [nombre_directorio]: Crea un nuevo directorio. Por ejemplo, mkdir Proyectos crea una carpeta llamada "Proyectos".
+5. **Ver el contenido de un archivo:**
+   - `cat <nombre_archivo>`: Muestra el contenido del archivo en la consola.
 
-Creación de archivos:
+6. **Eliminar archivos y directorios:**
+   - `rm <nombre_archivo>`: Elimina un archivo.
+   - `rm -r <nombre_directorio>`: Elimina un directorio y su contenido.
 
-touch [nombre_archivo]: Crea un archivo vacío. Por ejemplo, touch archivo.txt crea un archivo de texto vacío.
+### Ejemplo de Uso
 
-echo "contenido" > [nombre_archivo]: Crea un archivo con contenido. Por ejemplo, echo "Hola" > saludo.txt.
-
-Listar archivos y directorios:
-
-ls: Muestra los archivos y directorios en la ubicación actual.
-
-ls -l: Muestra detalles adicionales como permisos, tamaño y fecha de modificación.
-
-ls -a: Muestra todos los archivos, incluyendo los ocultos (que comienzan con un punto).
-
-Eliminar archivos y directorios:
-
-rm [nombre_archivo]: Elimina un archivo. Por ejemplo, rm archivo.txt.
-
-rm -r [nombre_directorio]: Elimina un directorio y su contenido de forma recursiva.
-
+```bash
+cd Documentos
+mkdir mi_proyecto
+cd mi_proyecto
+touch archivo.txt
+ls
