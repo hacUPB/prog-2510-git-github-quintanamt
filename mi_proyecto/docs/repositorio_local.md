@@ -1,3 +1,4 @@
+#AI
 Crear un repositorio remoto en GitHub y sincronizarlo con el repositorio local
 Para crear un repositorio remoto en GitHub y sincronizarlo con tu repositorio local, sigue estos pasos:
 
