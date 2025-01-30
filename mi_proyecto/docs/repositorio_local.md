@@ -6,6 +6,8 @@
 ```markdown
 # Crear un Repositorio Local con Git
 
+<img src="./programacion/prog-2510-git-github-quintanamt/mi_proyecto/images/1.png" alt="Clonar">
+
 Git es una herramienta de control de versiones que permite rastrear cambios en archivos y directorios. Aquí se explica cómo crear y gestionar un repositorio local.
 
 ### Comandos Básicos
