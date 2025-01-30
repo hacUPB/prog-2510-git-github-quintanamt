@@ -1,3 +1,4 @@
+#AI
 # Ignorar archivos de entorno y configuraciones locales
 .env
 *.env
