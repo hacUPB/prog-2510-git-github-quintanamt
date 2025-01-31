@@ -66,7 +66,7 @@ Agrego la información que investigue y lo agrego al Git
   - ` git push origin main `
 
 
-## PUNTO DOCUMENTACIÓN 
+### Punto Documentacion
 
 14. Debo de ir a la carpeta - `docs`
    - `touch uso_consola.md `
@@ -100,13 +100,13 @@ Agrego la información que investigue y lo agrego al Git
 ## Tabla de Contenido carpeta Docs 
 
 ### Repositorio_local.md:
- -`https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/repositorio_local.md`
+ -https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/repositorio_local.md
 
 ### Repositorio_remoto.md:
--`https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/repositorio_remoto.md`
+-https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/repositorio_remoto.md
 
 ### Uso_consola.md:
--`https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/uso_consola.md`
+-https://github.com/hacUPB/prog-2510-git-github-quintanamt/blob/main/mi_proyecto/docs/uso_consola.md
 
 
 
