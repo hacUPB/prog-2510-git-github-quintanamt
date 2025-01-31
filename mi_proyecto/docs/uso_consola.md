@@ -9,29 +9,39 @@ La consola es una herramienta poderosa para interactuar con el sistema operativo
    - `cd ..`: Sube un nivel en la jerarquía de directorios.
    - `cd`: Sin argumentos, te lleva al directorio home.
 
+
+![Imagen](../images/3.png)
+
+
 2. **Listar archivos y directorios:**
    - `ls`: Muestra los archivos y directorios en el directorio actual.
    - `ls -a`: Muestra todos los archivos, incluyendo los ocultos.
-   - `ls -l`: Muestra detalles como permisos, tamaño y fecha de modificación.
+
+![Imagen](../images/4.png)
 
 3. **Crear directorios:**
    - `mkdir <nombre_directorio>`: Crea un nuevo directorio.
 
+
+
+![Imagen](../images/5.png)
+
 4. **Crear archivos:**
    - `touch <nombre_archivo>`: Crea un archivo vacío.
 
+
+![Imagen](../images/6.png)
+
 5. **Ver el contenido de un archivo:**
    - `cat <nombre_archivo>`: Muestra el contenido del archivo en la consola.
+
+
+![Imagen](../images/7.png)
 
 6. **Eliminar archivos y directorios:**
    - `rm <nombre_archivo>`: Elimina un archivo.
    - `rm -r <nombre_directorio>`: Elimina un directorio y su contenido.
 
-### Ejemplo de Uso
 
-```bash
-cd Documentos
-mkdir mi_proyecto
-cd mi_proyecto
-touch archivo.txt
-ls
+![Imagen](../images/8.png)
+![Imagen](../images/9.png)
