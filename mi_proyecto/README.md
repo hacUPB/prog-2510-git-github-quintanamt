@@ -4,7 +4,7 @@ Este es un proyecto de ejemplo que demuestra cómo usar Git y GitHub para gestio
 
 ---
 
-## Pasos para clonar y ejecutar el proyecto
+### Pasos para clonar y ejecutar el proyecto
 
 1. Clona el repositorio en tu máquina local:
    ```bash
@@ -34,7 +34,7 @@ Este es un proyecto de ejemplo que demuestra cómo usar Git y GitHub para gestio
    
     - `code .  `
 
-## Nos abre el código en visual core studio copiamos y pegamos el código 
+### Nos abre el código en visual core studio copiamos y pegamos el código 
 
 6. Empezamos 
  - `git add src `
@@ -44,7 +44,7 @@ Este es un proyecto de ejemplo que demuestra cómo usar Git y GitHub para gestio
 
 8. - `git push -u origin main`
 
-## .gitignore
+### .gitignore
 
 9. Crear un archivo - ` .gitignore` y cúal es su función dentro de un proyecto de programación. Agrega el archivo - `.gitignore` a tu repositorio y escribe en él, el texto correspondiente para tu proyecto, según tu investigación. Pregunta al profesor en caso de dudas.
 
